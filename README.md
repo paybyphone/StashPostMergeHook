@@ -11,4 +11,4 @@ For instance:
         branch = develop
 ```
 
-This makes my `MainProject` have dependency on `submodule1` and when  `git remote update --remote` is run it going to `fetch` and point to the latest commit in the `develop` branch.
+This makes my `MainProject` to have a dependency on `submodule1` and when  `git remote update --remote` is run it is going to `fetch` and point to the latest commit in the `develop` branch.
