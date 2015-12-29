@@ -7,7 +7,7 @@ echo "==========================="
 CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 if [ $1 -eq 0 ]; then
-	echo "Main branch no specified. Reverting merge..."
+	echo "Main branch not specified. Reverting merge..."
 	git reset --hard HEAD~1
 	exit 0
 fi
